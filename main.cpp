@@ -6,10 +6,10 @@ using namespace std;
 int main() {
     int n = 0;
     cin >> n;
-    float b[n];
+    float a[n];
     for(int i=0; i<n;i++){
-        cin >> b[i];
+        cin >> a[i];
     }
-    cout << max(b,n);
+    cout << max(a,n);
     return 0;
 }
