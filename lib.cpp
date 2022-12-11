@@ -1,14 +1,11 @@
 #include "lib.h"
-float max( const float  num[], int d){
-    float c = num[0];
-    for (int i=1; i<d-1;i++){
-        float s=num[i];
-        float b=num[i+1];
-        if(s>b){
-            if(c<s){
-                c=s;
-            }
+float max(float num[],int n){
+    float a = num[0];
+
+    for(int i=1;i<n;i++){
+     if(num[i] > a){
+         a = mat[i];
         }
     }
-    return c;
+    return a;
 }
